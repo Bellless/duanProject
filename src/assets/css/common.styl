@@ -1,0 +1,29 @@
+// 公用的stylus样式文件
+
+// 定义变量
+// 公用的背景颜色
+$common_bck=#ffffff
+
+// 定义方法
+// 字体大小和颜色函数
+_common_font(sz,cr){
+  font-size: sz ;
+  color: cr; 
+}
+//公用css背景图片
+_common_img(bcg_url){
+  background-image: url(bcg_url);
+  background-size: 100%;
+  background-position: center center;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100%;
+}
+// flex兼容性
+_common_flex(){
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */  
+  display: -moz-box; /* Firefox 17- */  
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */  
+  display: -moz-flex; /* Firefox 18+ */  
+  display: -ms-flexbox; /* IE 10 */  
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */  
+}

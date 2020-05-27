@@ -1,0 +1,84 @@
+.rotate {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  margin-top: 0.35rem;
+  position: relative;
+}
+
+.rotate .middle {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: big linear infinite;
+}
+
+@-webkit-keyframes big {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotate .middle img {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  animation: spin 4s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotate .small {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.rotate .small img {
+  width: 100%;
+  height: 100%;
+}
+
+.rotate .line-big {
+  width: 100%;
+  height: 100%;
+}
+
+.rotate .line-big img {
+  width: 100%;
+  height: 100%;
+  /* animation动画效果 */
+  animation: big 5s linear infinite;
+}
+
+@-webkit-keyframes big {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
