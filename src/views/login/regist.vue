@@ -1,5 +1,8 @@
 <template>
 <!-- 注册页面 -->
+<div>
+  
+</div>
 </template>
 
 <script>
