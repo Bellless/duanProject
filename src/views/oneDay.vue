@@ -19,6 +19,14 @@
       <!-- v-show的使用 -->
       <!-- v-show就是用来显示或者隐藏的  当v-show里面的布尔值结果来的,为真（true）的时候显示 否之隐藏-->
       <h1 v-show="bool">这是v-show生效的时候显示</h1>
+
+      <!-- vue从一个页面跳转到另外一个页面 -->
+      <router-link to="twoDay">
+        <h3>跳转</h3>
+      </router-link>
+
+      <!-- 点击事件@click -->
+      <button @click="fn">点击事件</button>
     </div>
   </div>
 </template>
@@ -42,7 +50,12 @@ export default {
   },
   watch: {},
   computed: {},
-  methods: {},
+  // methods里面是用来写方法的 各种方法
+  methods: {
+    fn() {
+      console.log("xasasda");
+    }
+  },
   created() {},
   mounted() {}
 };
