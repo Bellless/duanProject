@@ -8,13 +8,13 @@
           <!-- 旋转logo -->
           <div class="rotate">
             <div class="middle">
-              <img src="../assets/img/login/icon/quan1.png" alt="">
+              <img src="../../assets/img/login/icon/quan1.png" alt="">
             </div>
             <div class="small">
-              <img src="../assets/img/login/icon/diqiu.png" alt="">
+              <img src="../../assets/img/login/icon/diqiu.png" alt="">
             </div>
             <div class="line-big">
-              <img src="../assets/img/login/icon/quan2.png" alt="">
+              <img src="../../assets/img/login/icon/quan2.png" alt="">
             </div>
           </div>
         </div>
@@ -26,20 +26,16 @@
 
 <script>
 // 这里面就是用来写js 方法等等的
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
+  name: "Home"
 };
 </script>
 
 <style lang="stylus" scoped>
 // 局部引入
-@import '../assets/css/common.styl';
-@import '../assets/css/login_icon.css';
+@import '../../assets/css/common.styl';
+@import '../../assets/css/login_icon.css';
 
 /* scoped 表示样式只能在当前页面上生效 */
 /* 这里面是写css的 */

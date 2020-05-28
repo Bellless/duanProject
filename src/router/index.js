@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import login from '../views/login/login.vue'
 import twoDay from '../views/twoDay.vue'
 
 Vue.use(VueRouter)
@@ -13,13 +13,8 @@ const routes = [
     // /  >>根目录 就是这个项目启动的时候访问的第一个页面
     // 根目录只有一个
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/oneDay',
-    name: 'oneDay',
-    component: () => import( /* webpackChunkName: "about" */ '../views/oneDay.vue')
+    name: 'login',
+    component: login
   },
   {
     // path  我们在浏览器中访问的地址
@@ -28,6 +23,11 @@ const routes = [
     name: 'twoDay',
     // component 就相当于href 你要跳转的路径
     component: twoDay
+  },
+  {
+    path: '/oneDay',
+    name: 'oneDay',
+    component: () => import( /* webpackChunkName: "about" */ '../views/oneDay.vue')
   },
 ]
 

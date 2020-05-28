@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/oneDay">About</router-link>
-    </div>
+    <!-- app.vue里面必须要有router-view这个标签-->
+    <!-- router-view就是去匹配router目录下的index.js里面的所有路由规则 -->
+    <!-- 如果没有router-view这个标签 整个项目中的所有页面都不会显示的 -->
     <router-view/>
   </div>
 </template>
@@ -13,20 +12,5 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>

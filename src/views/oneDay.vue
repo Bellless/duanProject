@@ -20,7 +20,7 @@
       <!-- v-show就是用来显示或者隐藏的  当v-show里面的布尔值结果来的,为真（true）的时候显示 否之隐藏-->
       <h1 v-show="bool">这是v-show生效的时候显示</h1>
 
-      <!-- vue从一个页面跳转到另外一个页面 -->
+      <!-- vue从一个页面跳转到另外一个页面  router-link-->
       <router-link to="twoDay">
         <h3>跳转</h3>
       </router-link>
