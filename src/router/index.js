@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import login from '../views/login/login.vue'
 import twoDay from '../views/twoDay.vue'
+import ownsTestOne from '../views/ownsTestOne.vue'
 
 Vue.use(VueRouter)
 
@@ -32,9 +33,9 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes
 })
 
 export default router
