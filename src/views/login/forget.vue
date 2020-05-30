@@ -1,7 +1,7 @@
 <template>
 <!-- 忘记密码页面 -->
 <div>
-  
+   
 </div>
 </template>
 

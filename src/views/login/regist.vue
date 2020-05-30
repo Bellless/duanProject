@@ -1,8 +1,10 @@
 <template>
 <!-- 注册页面 -->
-<div>
+
+<div class="">
   
 </div>
+  
 </template>
 
 <script>
