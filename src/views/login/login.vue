@@ -1,4 +1,5 @@
 <template>
+<!-- 登录页面 -->
   <!-- template这个标签就是用来写我们的html结构的 弹性布局 -->
   <!-- 有且只有一个div  所有的内容都应该在这个div里面 -->
   <div class="temp">
