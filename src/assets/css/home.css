@@ -1,0 +1,111 @@
+    .bottom {
+        width: 100%;
+    }
+    
+    .topBar {
+        width: 100%;
+        background-color: #e7ece8;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .subject {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .beijingTwothousand {
+        position: absolute;
+        top: 6.266667rem;
+        left: 4rem;
+    }
+    
+    .element1 {
+        width: 9.333333rem;
+        height: 9.333333rem;
+        background-color: #00FF00;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .child1 {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        background-color: #2DFFFF;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .first {
+        position: absolute;
+        left: .533333rem;
+    }
+    
+    .second {
+        position: absolute;
+        top: 5.733333rem;
+        left: 1.466667rem;
+    }
+    
+    .third {
+        position: absolute;
+        top: 4.266667rem;
+    }
+    
+    .fourth {
+        position: absolute;
+        top: 5.6rem;
+        left: 7.533333rem;
+    }
+    
+    .fifth {
+        position: absolute;
+        left: 8.266667rem;
+    }
+    
+    .sixth {
+        position: absolute;
+        top: 10.133333rem;
+        left: 7.533333rem;
+    }
+    
+    .seventh {
+        position: absolute;
+        top: 11.866667rem;
+    }
+    
+    .eighth {
+        position: absolute;
+        top: 10.4rem;
+        left: 1.466667rem;
+    }
+    
+    .bottomBar {
+        background-color: #e7ece8;
+        width: 100%;
+        margin-top: 6rem;
+        position: sticky;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: .266667rem;
+    }
+    
+    .bottomBarpicture {
+        width: 1.066667rem;
+    }

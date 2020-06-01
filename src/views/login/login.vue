@@ -1,5 +1,5 @@
 <template>
-<!-- 登录页面 -->
+  <!-- 登录页面 -->
   <!-- template这个标签就是用来写我们的html结构的 弹性布局 -->
   <!-- 有且只有一个div  所有的内容都应该在这个div里面 -->
   <div class="temp">
@@ -28,42 +28,45 @@
         <h1 class="signIntoyouraccount">账号登录</h1>
         <!-- 跳转 -->
         <router-link to="regist">
-       <h1 class="accountRegistration">账号注册</h1>
-      </router-link>
-    </div>
-    </div>
-      <!-- 账号密码板块 -->
-      <div class="accountPassword">
-        <!-- 账号 -->
-        <div class="accountSection">
-          <img src="../../assets/img/login/phone.png" alt class="accountIcon" />
-          <input type="text" value="请输入账号" maxlength="20" class="accountEntrybox" />
-          <img src="../../assets/img/login/close.png" alt class="accountDeletebutton" />
-        </div>
-        <hr>
+          <h1 class="accountRegistration">账号注册</h1>
+        </router-link>
       </div>
-      <!-- 密码板块 -->
-      <div class="accountPassword">
-        <!-- 密码 -->
-        <div class="passwordPlate">
-          <img src="../../assets/img/login/jiesuo.png" alt class="accountIcon" />
-          <input type="text" value="请输入密码" maxlength="15" class="accountEntrybox"  />
-          <img src="../../assets/img/login/pwd.png" alt class="accountDeletebutton" />
-        </div>
-        <hr>
+    </div>
+    <!-- 账号密码板块 -->
+    <div class="accountPassword">
+      <!-- 账号 -->
+      <div class="accountSection">
+        <img src="../../assets/img/login/phone.png" alt class="accountIcon" />
+        <input type="text" value="请输入账号" maxlength="20" class="accountEntrybox" />
+        <img src="../../assets/img/login/close.png" alt class="accountDeletebutton" />
       </div>
-      <!-- 忘记密码 -->
+      <hr />
+    </div>
+    <!-- 密码板块 -->
+    <div class="accountPassword">
+      <!-- 密码 -->
+      <div class="passwordPlate">
+        <img src="../../assets/img/login/jiesuo.png" alt class="accountIcon" />
+        <input type="text" value="请输入密码" maxlength="15" class="accountEntrybox" />
+        <img src="../../assets/img/login/pwd.png" alt class="accountDeletebutton" />
+      </div>
+      <hr />
+    </div>
+    <!-- 忘记密码 -->
     <div class="forgetPasswordoptions">
-       <router-link to="forget">
-       <p>忘记密码?</p>
+      <router-link to="forget">
+        <p>忘记密码?</p>
       </router-link>
     </div>
     <!-- 登录按键 -->
-    <div class="loginButton">
-      <div class="loginButton2">
-        <p class="signInfont">登录</p>
-      </div>
-      
+    <div>
+      <router-link to="goTothehome">
+        <div class="loginButton">
+          <div class="loginButton2">
+            <p class="signInfont">登录</p>
+          </div>
+        </div>
+      </router-link>
     </div>
   </div>
 </template>

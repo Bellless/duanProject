@@ -5,6 +5,7 @@ import twoDay from '../views/twoDay.vue'
 import ownsTestOne from '../views/ownsTestOne.vue'
 import regist from '../views/login/regist.vue'
 import forget from '../views/login/forget.vue'
+import goTothehome from '../views/home/home.vue'
 
 Vue.use(VueRouter)
 
@@ -43,6 +44,11 @@ const routes = [
         path: '/forget',
         name: 'forget',
         component: forget
+    },
+    {
+        path: '/goTothehome',
+        name: 'goTothehome',
+        component: goTothehome
     },
 ]
 
