@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import login from '../views/login/login.vue'
+import backTosignin from '../views/login/login.vue'
 import twoDay from '../views/twoDay.vue'
 import ownsTestOne from '../views/ownsTestOne.vue'
 import regist from '../views/login/regist.vue'
 import forget from '../views/login/forget.vue'
 import goTothehome from '../views/home/home.vue'
+import connectedWorld from '../views/home/connectedWorld/connectedWorld.vue'
+
 
 Vue.use(VueRouter)
 
@@ -49,6 +52,16 @@ const routes = [
         path: '/goTothehome',
         name: 'goTothehome',
         component: goTothehome
+    },
+    {
+        path: '/connectedWorld',
+        name: 'connectedWorld',
+        component: connectedWorld
+    },
+    {
+        path: '/backTosignin',
+        name: 'backTosignin',
+        component: backTosignin
     },
 ]
 

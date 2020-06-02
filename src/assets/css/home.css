@@ -4,10 +4,66 @@
     
     .topBar {
         width: 100%;
-        background-color: #e7ece8;
+        background-color: #FFFFFF;
         margin: 0;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .topB {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .topBa {
+        margin-left: .266667rem;
+    }
+    
+    .topBb {
+        margin-right: .266667rem;
+    }
+    
+    .optionOuter {
+        width: 100%;
+        display: flex;
         justify-content: center;
+    }
+    
+    .optionO {
+        width: 95%;
+        color: #989898;
+    }
+    
+    .withinTheoptions {
+        width: 100%;
+        height: 1.066667rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .optionLeft {
+        background-color: #18FE44;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .666667rem 0 0 .666667rem;
+        color: #282828;
+        font-size: .453333rem;
+    }
+    
+    .optionRight {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 .666667rem .666667rem 0;
+        border: thin solid #18FE44;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        color: #18FE44;
+        font-size: .453333rem;
     }
     
     .subject {
@@ -15,13 +71,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     
     .beijingTwothousand {
         position: absolute;
-        top: 6.266667rem;
+        top: 7rem;
         left: 4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        line-height: 0;
     }
     
     .element1 {
@@ -52,18 +113,18 @@
     
     .second {
         position: absolute;
-        top: 5.733333rem;
+        top: 6.873333rem;
         left: 1.466667rem;
     }
     
     .third {
         position: absolute;
-        top: 4.266667rem;
+        top: 5.306667rem;
     }
     
     .fourth {
         position: absolute;
-        top: 5.6rem;
+        top: 6.74rem;
         left: 7.533333rem;
     }
     
@@ -74,29 +135,23 @@
     
     .sixth {
         position: absolute;
-        top: 10.133333rem;
+        top: 11.273333rem;
         left: 7.533333rem;
     }
     
     .seventh {
         position: absolute;
-        top: 11.866667rem;
+        top: 13.006667rem;
     }
     
     .eighth {
         position: absolute;
-        top: 10.4rem;
+        top: 11.54rem;
         left: 1.466667rem;
     }
     
-    .bottomBar {
-        background-color: #e7ece8;
-        width: 100%;
-        margin-top: 6rem;
-        position: sticky;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    .bottomBarpicture {
+        width: 1.066667rem;
     }
     
     .left {
@@ -106,6 +161,59 @@
         margin-top: .266667rem;
     }
     
-    .bottomBarpicture {
-        width: 1.066667rem;
+    .Slogan {
+        display: flex;
+        justify-content: center;
+        color: #99F9A8;
+    }
+    
+    .blueirclet {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .blueircle {
+        width: 1.226667rem;
+    }
+    
+    html,
+    body,
+    .wrap {
+        height: 100%;
+    }
+    /*必需 */
+    
+    .wrap {
+        height: auto;
+        min-height: 100%;
+    }
+    
+    .main {
+        padding-bottom: 150px;
+    }
+    
+    .clearfix {
+        display: block;
+        height: 1%;
+    }
+    
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    
+    .footer {
+        clear: both;
+        position: Sticky;
+        margin-top: -2.666667rem;
+        text-align: center;
+        background-color: #e7ece8;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
