@@ -85,7 +85,10 @@
 .news {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-top: .266667rem;
+    line-height: 0;
 }
 
 .newsO {

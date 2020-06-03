@@ -1,4 +1,5 @@
 <template>
+<!-- 主页 -->
     <div class="bottom">
         <div class="topBar">
             <div class="topB">
@@ -70,15 +71,19 @@
                 <p>互联世界</p>
             </div>
             </router-link>
+             <router-link to="myFriend">
+                <div class="left">
+                    <img src="../../assets/img/footer_img/friend.png" alt class="bottomBarpicture"/>
+                    <p>我的好友</p>
+                </div>
+            </router-link>
+            <router-link to="mySettings">
+                <div class="left">
+                    <img src="../../assets/img/footer_img/setUp.png" alt class="bottomBarpicture"/>
+                    <p>我的设置</p>
+                </div>
+            </router-link>
            
-            <div class="left">
-                <img src="../../assets/img/footer_img/friend.png" alt class="bottomBarpicture"/>
-                <p>我的好友</p>
-            </div>
-            <div class="left">
-                <img src="../../assets/img/footer_img/setUp.png" alt class="bottomBarpicture"/>
-                <p>我的设置</p>
-            </div>
         </div>
     </div>
 </template>

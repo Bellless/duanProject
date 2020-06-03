@@ -8,6 +8,9 @@ import regist from '../views/login/regist.vue'
 import forget from '../views/login/forget.vue'
 import goTothehome from '../views/home/home.vue'
 import connectedWorld from '../views/home/connectedWorld/connectedWorld.vue'
+import mySettings from '../views/home/mySettings/mySettings.vue'
+import myHome from '../views/home/home.vue'
+import myFriend from '../views/home/myFriend/myFriend.vue'
 
 
 Vue.use(VueRouter)
@@ -62,6 +65,21 @@ const routes = [
         path: '/backTosignin',
         name: 'backTosignin',
         component: backTosignin
+    },
+    {
+        path: '/mySettings',
+        name: 'mySettings',
+        component: mySettings
+    },
+    {
+        path: '/myFriend',
+        name: 'myFriend',
+        component: myFriend
+    },
+    {
+        path: '/myHome',
+        name: 'myHome',
+        component: myHome
     },
 ]
 

@@ -1,4 +1,5 @@
 <template>
+<!-- 互联世界 -->
     <div class="connectedW">
         <div class="content">
         <!-- 头像 -->
@@ -139,13 +140,14 @@
                 </div>
                 <p>刷新</p>
             </div>
-            <div class="news">
-                <div class="newsO">
-                
-                    <img src="../../../assets/img/entertaiMent/bottom-icon/zhuye.png" alt="" class="newsT">
+            <router-link to="myHome">
+               <div class="news">
+                    <div class="newsO">
+                        <img src="../../../assets/img/entertaiMent/bottom-icon/zhuye.png" alt="" class="newsT">
+                    </div>
+                    <p>我的主页</p>
                 </div>
-                <p>我的主页</p>
-            </div>
+            </router-link>
         </div>
     </div>
 </template>

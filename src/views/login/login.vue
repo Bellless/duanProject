@@ -37,7 +37,7 @@
       <!-- 账号 -->
       <div class="accountSection">
         <img src="../../assets/img/login/phone.png" alt class="accountIcon" />
-        <input type="text" value="请输入账号" maxlength="20" class="accountEntrybox" />
+        <input type="text" placeholder="请输入账号" maxlength="20" class="accountEntrybox" />
         <img src="../../assets/img/login/close.png" alt class="accountDeletebutton" />
       </div>
       <hr />
@@ -47,7 +47,7 @@
       <!-- 密码 -->
       <div class="passwordPlate">
         <img src="../../assets/img/login/jiesuo.png" alt class="accountIcon" />
-        <input type="text" value="请输入密码" maxlength="15" class="accountEntrybox" />
+        <input type="text" placeholder="请输入密码" maxlength="15" class="accountEntrybox" />
         <img src="../../assets/img/login/pwd.png" alt class="accountDeletebutton" />
       </div>
       <hr />

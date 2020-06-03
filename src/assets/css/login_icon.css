@@ -118,9 +118,19 @@
     align-items: center;
 }
 
-input {
+
+/* input {
     border: none;
     outline: medium;
+} */
+
+.accountEntrybox {
+    /* 去除未选中状态边框 */
+    border: 0;
+    /* 去除选中状态边框 */
+    outline: none;
+    /* 透明背景 */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .accountEntrybox {

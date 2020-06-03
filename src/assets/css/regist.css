@@ -26,6 +26,12 @@
 
 .sccountEntryboxtwo {
     width: 75%;
+    /* 去除未选中状态边框 */
+    border: 0;
+    /* 去除选中状态边框 */
+    outline: none;
+    /* 透明背景 */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .cerificationCode {

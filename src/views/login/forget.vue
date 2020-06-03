@@ -11,7 +11,7 @@
     <div class="signUpforUniversalTotal">
       <div class="signUpforUniversal">
         <img src="../../assets/img/login/phone.png" alt="">
-        <input type="text" value="请输入注册手机号" maxlength="20" class="sccountEntryboxtwo"/>
+        <input type="text" placeholder="请输入注册手机号" maxlength="20" class="sccountEntryboxtwo"/>
       </div>
       <div>
         <img src="../../assets/img/login/close.png" alt="" class="accountIcon">
@@ -22,7 +22,7 @@
     <div class="signUpforUniversalTotal">
       <div class="signUpforUniversal">
         <img src="../../assets/img/login/jiesuo.png" alt="">
-        <input type="text" value="请输入密码" maxlength="20" class="sccountEntryboxtwo"/>
+        <input type="text" placeholder="请输入密码" maxlength="20" class="sccountEntryboxtwo"/>
       </div>
       <div>
         <img src="../../assets/img/login/pwd.png" alt="" class="accountIcon">
@@ -34,7 +34,7 @@
     <div class="cerificationCode">
       <div class="signUpforUniversal">
         <img src="../../assets/img/login/dun.png" alt="">
-        <input type="text" value="请输入验证码" maxlength="20" class="sccountEntryboxtwo"/>
+        <input type="text" placeholder="请输入验证码" maxlength="20" class="sccountEntryboxtwo"/>
       </div>
       <div class="getAverificationcodebutton">
         <p>获取验证码</p>
