@@ -106,26 +106,7 @@
             </div>
         </div>
         <!-- 底栏 -->
-        <div class="footer_Friends">
-            <router-link to="connectedWorld">
-                <div class="footer_one_Friends">
-                    <img src="../../../assets/img/footer_img/InternetWorld.png" alt class="InternetWorld_Friends" />
-                    <p>互联世界</p>
-                </div>
-            </router-link>
-      
-            <div class="footer_one_Friends">
-                <img src="../../../assets/img/footer_img/friend.png" alt class="InternetWorld_Friends" />
-                <p>我的好友</p>
-            </div>
-      
-            <router-link to="mySettings">
-                <div class="footer_one_Friends">
-                    <img src="../../../assets/img/footer_img/setUp.png" alt class="InternetWorld_Friends" />
-                    <p>我的设置</p>
-                </div>
-            </router-link>
-        </div>
+        <commonFooter/>
     </div>
 </template>
 
@@ -144,6 +125,119 @@ export default {
 };
 </script>
 <style lang= "stylus" scoped>
-@import '../../../assets/css/myFriend.css';
 @import '../../../assets/css/common.styl';
+.wrap_Friends {
+    width: 100%;
+}
+
+.header_Friends {
+    _common_flex()
+    _common_center()
+    justify-content: flex-end;
+    margin-top: 1.066667rem;
+}
+
+.enters_Friends {
+    width: .533333rem;
+    margin-right: .266667rem;
+}
+
+.main_Friends {
+    width: 100%;
+    _common_flex()
+    justify-content: space-between;
+}
+
+.content_Friends {
+    width: 85%;
+}
+
+.main_tetxone {
+    margin-left: .933333rem;
+}
+
+
+/* 线 */
+
+.line_main {
+    width: 100%;
+    height: .02rem;
+    background-color: #D7D7D7;
+}
+
+.list_Friends {
+    _common_flex()
+    _common_center()
+    justify-content: end;
+}
+
+.avatarone_Feiends {
+    width: 1.066667rem;
+    border-radius: 50%;
+    margin: .266667rem;
+}
+
+.main-right_Friends {
+    _common_flex()
+    _common_column()
+    line-height: .466667rem;
+    
+}
+
+.entertwo_Friends {
+    width: .4rem;
+}
+
+.searchbox_Friends {
+    width: 100%;
+}
+
+.Release_Friends {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Releaseone_Friends {
+    _common_flex()
+    _common_column()
+    line-height: 0;
+}
+
+.setting_Friends {
+    width: 1.066667rem;
+}
+
+.searchbox_two_Friends {
+    width: 100%;
+    _common_flex()
+    _common_center()
+}
+
+.input_Friends {
+    width: 75%;
+    height: .8rem;
+    border-radius: .666667rem;
+    /* 边框颜色 */
+    border-color: #B0B0B0;
+}
+
+.footer_Friends {
+    width: 100%;
+    _common_flex()
+    justify-content: space-around;
+    _common_center()
+    background-color: #F4F4F4;
+    margin-top: .266667rem;
+}
+
+.footer_one_Friends {
+    _common_flex()
+    _common_column()
+    margin-top: .266667rem;
+    line-height: 0;
+}
+
+.InternetWorld_Friends {
+    width: 1.066667rem;
+}
 </style>

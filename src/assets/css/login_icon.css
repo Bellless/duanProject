@@ -2,7 +2,7 @@
     width: 6rem;
     height: 6rem;
     margin: 0 auto;
-    margin-top: 0.35rem;
+    /* margin-top: 0.35rem; */
     position: relative;
 }
 
@@ -78,111 +78,4 @@
     100% {
         transform: rotate(360deg);
     }
-}
-
-
-/* 登录页面 */
-
-.temp2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* 标题 */
-
-.titleBlock {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 95%;
-}
-
-.signIntoyouraccount {
-    font-size: .8rem;
-    color: #3C9FF9;
-}
-
-.accountRegistration {
-    margin-left: .266667rem;
-    text-align: none;
-}
-
-
-/* 账号区 */
-
-.accountSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-/* input {
-    border: none;
-    outline: medium;
-} */
-
-.accountEntrybox {
-    /* 去除未选中状态边框 */
-    border: 0;
-    /* 去除选中状态边框 */
-    outline: none;
-    /* 透明背景 */
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.accountEntrybox {
-    width: 75%;
-}
-
-.accountDeletebutton {
-    width: .666667rem;
-    height: .666667rem;
-}
-
-
-/* 密码区 */
-
-.passwordPlate {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: .4rem;
-}
-
-
-/* 忘记密码选项 */
-
-.forgetPasswordoptions {
-    display: flex;
-    justify-content: flex-end;
-    color: #087DF8;
-    font-size: .533333rem;
-    text-align: none;
-}
-
-
-/* 登录按键 */
-
-.loginButton {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.loginButton2 {
-    width: 80%;
-    height: 1.066667rem;
-    background-color: #087DF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: .106667rem;
-}
-
-.signInfont {
-    font-size: .533333rem;
-    color: #fff;
 }

@@ -3,9 +3,10 @@
 // 定义变量
 // 公用的背景颜色
 $common_bck=#ffffff
+// 公用的字体大小
 
 // 定义方法
-// 字体大小和颜色函数
+// 公用字体大小和颜色函数
 _common_font(sz,cr){
   font-size: sz ;
   color: cr; 
@@ -26,4 +27,36 @@ _common_flex(){
   display: -moz-flex; /* Firefox 18+ */  
   display: -ms-flexbox; /* IE 10 */  
   display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */  
+}
+
+// 公用的边框颜色
+_common_border(){
+// .后面是第一个类名 .后面在一个类名 就表示这是一个全新的类名
+// 如果写了相同的样式 就可以覆盖之前的某些样式
+// rgba中的最后一个值是颜色的透明度 取值范围0 - 1
+  border-bottom: 1px solid rgba(234,233,233,1);
+}
+// 公用的水平排列 上下左右都居中
+_common_center(){
+  justify-content: center;
+  align-items: center;
+}
+// 公用的竖直排列 上下左右居中
+_common_column(){
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+// 公用图标大小
+_common_ico(){
+  width .6rem;
+}
+// 公用去边框
+_common_inputbox(){
+  /* 去除未选中状态边框 */
+      border: 0;
+      /* 去除选中状态边框 */
+      outline: none;
+      /* 透明背景 */
+      background-color: rgba(0, 0, 0, 0);
 }
