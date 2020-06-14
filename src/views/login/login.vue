@@ -136,7 +136,7 @@ export default {
       // push中只能是path对象不能是name
       // 动态跳转
       this.$router.push({ path: "/goTothehome" });
-    
+      
     },
     fnData(val) {
       console.log(val);
