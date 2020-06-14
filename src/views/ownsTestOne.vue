@@ -17,6 +17,7 @@ export default {
   methods:{},
   created(){},
   mounted(){}
+
 }
 </script>
 <style scoped>
