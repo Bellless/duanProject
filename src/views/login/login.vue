@@ -134,8 +134,9 @@ export default {
       // 凡是跟我们页面跳转传递参数相关的 我们$route这个对象
       // 动态跳转到某页面
       // push中只能是path对象不能是name
+      // 动态跳转
       this.$router.push({ path: "/goTothehome" });
-     
+    
     },
     fnData(val) {
       console.log(val);
