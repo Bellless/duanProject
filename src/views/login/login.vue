@@ -170,7 +170,7 @@ export default {
           }
         })
         .catch(err => {
-          alert("失败");
+          alert("连接失败");
           console.log(err);
         });
     }
