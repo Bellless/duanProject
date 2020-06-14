@@ -98,6 +98,7 @@
     <router-link to="/five">
       <p>路由传参的总结-各种方式</p>
     </router-link>
+    <p @click="fnCeshi">测试</p>
     <router-view></router-view>
   </div>
 </template>
@@ -123,6 +124,9 @@ export default {
   watch: {},
   computed: {},
   methods: {
+    fnCeshi(){
+      this.$router.push({ path: "/test" });
+    },
     fnTo() {},
     fnToLogin() {
       // 路由嵌套中 返回上一级路由

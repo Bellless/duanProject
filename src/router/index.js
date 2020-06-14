@@ -210,6 +210,14 @@ const routes = [
             }]
         }]
     },
+
+    {
+        path: '/test',
+        name: 'test',
+        component: () =>
+            import ('../views/test.vue')
+
+    },
 ]
 
 const router = new VueRouter({
