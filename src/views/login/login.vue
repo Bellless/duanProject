@@ -135,8 +135,7 @@ export default {
       // 动态跳转到某页面
       // push中只能是path对象不能是name
       this.$router.push({ path: "/goTothehome" });
-      //动态返回我们上个页面
-      // this.$router.go(-1)
+     
     },
     fnData(val) {
       console.log(val);
