@@ -27,7 +27,6 @@ export default {
          {name:55},
          {},
          [
-             {},
              {}
          ]
      ] 
